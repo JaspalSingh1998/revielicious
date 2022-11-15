@@ -13,6 +13,14 @@
 		C56FF3442922CAE100EA3E9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C56FF3422922CAE100EA3E9C /* Main.storyboard */; };
 		C56FF3462922CAE200EA3E9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C56FF3452922CAE200EA3E9C /* Assets.xcassets */; };
 		C56FF3492922CAE200EA3E9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C56FF3472922CAE200EA3E9C /* LaunchScreen.storyboard */; };
+		C56FF3532923022800EA3E9C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FF3522923022800EA3E9C /* ProfileViewController.swift */; };
+		C56FF3552923023300EA3E9C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FF3542923023300EA3E9C /* MapViewController.swift */; };
+		C56FF35F292307EB00EA3E9C /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FF35E292307EB00EA3E9C /* LocationViewController.swift */; };
+		C56FF36129230D6700EA3E9C /* BusinessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FF36029230D6700EA3E9C /* BusinessTableViewCell.swift */; };
+		C56FF364292310D000EA3E9C /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FF363292310CF00EA3E9C /* Business.swift */; };
+		C56FF366292314C500EA3E9C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FF365292314C500EA3E9C /* SwiftyJSON.swift */; };
+		C5AAB8D32923230000B65A9A /* BusinessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AAB8D22923230000B65A9A /* BusinessViewModel.swift */; };
+		C5AAB8D52923E62600B65A9A /* BusinessDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AAB8D42923E62600B65A9A /* BusinessDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		C56FF3452922CAE200EA3E9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C56FF3482922CAE200EA3E9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C56FF34A2922CAE200EA3E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C56FF3522923022800EA3E9C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C56FF3542923023300EA3E9C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C56FF35E292307EB00EA3E9C /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		C56FF36029230D6700EA3E9C /* BusinessTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTableViewCell.swift; sourceTree = "<group>"; };
+		C56FF363292310CF00EA3E9C /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		C56FF365292314C500EA3E9C /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		C5AAB8D22923230000B65A9A /* BusinessViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessViewModel.swift; sourceTree = "<group>"; };
+		C5AAB8D42923E62600B65A9A /* BusinessDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,31 @@
 		C56FF33B2922CAE100EA3E9C /* revielicious */ = {
 			isa = PBXGroup;
 			children = (
+				C56FF36229230FA200EA3E9C /* Models */,
 				C56FF33C2922CAE100EA3E9C /* AppDelegate.swift */,
 				C56FF33E2922CAE100EA3E9C /* SceneDelegate.swift */,
+				C56FF365292314C500EA3E9C /* SwiftyJSON.swift */,
 				C56FF3402922CAE100EA3E9C /* ViewController.swift */,
 				C56FF3422922CAE100EA3E9C /* Main.storyboard */,
 				C56FF3452922CAE200EA3E9C /* Assets.xcassets */,
 				C56FF3472922CAE200EA3E9C /* LaunchScreen.storyboard */,
 				C56FF34A2922CAE200EA3E9C /* Info.plist */,
+				C56FF3522923022800EA3E9C /* ProfileViewController.swift */,
+				C56FF3542923023300EA3E9C /* MapViewController.swift */,
+				C56FF35E292307EB00EA3E9C /* LocationViewController.swift */,
+				C56FF36029230D6700EA3E9C /* BusinessTableViewCell.swift */,
+				C5AAB8D42923E62600B65A9A /* BusinessDetailViewController.swift */,
 			);
 			path = revielicious;
+			sourceTree = "<group>";
+		};
+		C56FF36229230FA200EA3E9C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C5AAB8D22923230000B65A9A /* BusinessViewModel.swift */,
+				C56FF363292310CF00EA3E9C /* Business.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +171,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C56FF3412922CAE100EA3E9C /* ViewController.swift in Sources */,
+				C56FF36129230D6700EA3E9C /* BusinessTableViewCell.swift in Sources */,
+				C56FF3552923023300EA3E9C /* MapViewController.swift in Sources */,
 				C56FF33D2922CAE100EA3E9C /* AppDelegate.swift in Sources */,
+				C5AAB8D32923230000B65A9A /* BusinessViewModel.swift in Sources */,
+				C56FF35F292307EB00EA3E9C /* LocationViewController.swift in Sources */,
+				C56FF364292310D000EA3E9C /* Business.swift in Sources */,
+				C56FF366292314C500EA3E9C /* SwiftyJSON.swift in Sources */,
+				C5AAB8D52923E62600B65A9A /* BusinessDetailViewController.swift in Sources */,
+				C56FF3532923022800EA3E9C /* ProfileViewController.swift in Sources */,
 				C56FF33F2922CAE100EA3E9C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
